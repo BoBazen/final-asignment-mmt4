@@ -1,0 +1,702 @@
+/* styling nav */ 
+#navigation  {
+    background-color: var(--bg);
+    position: fixed;
+    width:100%; 
+    z-index: 990; 
+    
+    }
+    #navigation img {
+        height: 50px;
+        width: 50px; 
+        float:left;
+        padding: 27px 20px 22px 40px;
+    }
+    
+    #navigation li {
+        font-family: 'Montserrat',sans-serif;
+        font-size:1em; 
+        color: var(--text-header); 
+        font-weight: bolder;
+        text-transform: uppercase; 
+        padding-right: 40px; 
+    }
+    
+    #navigation nav ul {
+    text-align: right;
+    float: right; 
+    padding-top: 43.5px; 
+    }
+    
+    #navigation nav li {
+     display: inline;
+    }
+    
+    #navigation nav a {
+        padding: 20px; 
+    }
+    
+    #navigation a:hover, a:active {
+        text-decoration: underline; 
+    }
+    
+    /* styling coding */ 
+    #coding  {
+        height: 600px; 
+        width:100%; 
+        padding-top: 100px; 
+    }
+    
+    #coding { 
+    /* bottom image */ 
+    background: linear-gradient(rgba(29,0,255,0.85), rgba(0,118,255,0.85)), 
+    url(../img/daria-nepriakhina-736026-unsplash.jpg); 
+    background-size: cover; 
+    color: white;
+    }
+    
+    /* styling header text */ 
+    .codingBlock h2 {
+        font-size: 3.75em; 
+        font-family: 'Playfair Display', serif; 
+        font-weight: bolder; 
+        padding-top: 5px; 
+    
+    }
+    
+    .codingBlock p {
+        font-size: 1.375em;
+        font-family: 'Montserrat', sans-serif; 
+        margin-top: 30px; 
+    } 
+    .codingBlock {
+        width: 925px; 
+        margin: 0 auto; 
+        padding-top: 50px; 
+    }
+    
+    /* styling body */ 
+    main {
+        background: var(--bg); 
+    
+    }
+    
+    main {
+        padding-top: 1px;
+    }
+    :root {
+        --bg-header:white;
+        --text-header:#1d00ff;
+        --play-supp:#1d00ff;
+        --text-accord:#1d00ff;
+        --text-accord-click:black;
+        --bg:white;
+        --text-cont:black;
+        --text-email:white;
+        --butt-email: black;
+        --ptext-acc:black;
+        --border-acc:black;
+    
+    }
+    
+    /* styling container */ 
+    .container {
+        background-color: var(--bg);
+        width: 90%; 
+        margin: 0 auto; 
+        display: block;
+        margin-top: -100px; 
+        position: relative;
+        z-index: 1; 
+    
+    }
+    
+    .ui-accordian-header-active {
+        color: #1d00ff;
+        background: var(--bg-header);
+        border: 1px solid #1d00ff; 
+    }
+    
+    .ui-accordian-header-collapsed {
+        border: 1px solid #ebebeb;
+    }
+    
+    .ui-accordion-content {
+        position: relative;
+    }
+    
+    
+    /* styling accordion */ 
+    .container h3, .containerTwo h3 {
+        color: var(--text-accord) !important;
+        font-family: 'Montserrat', sans-serif; 
+        font-weight: bolder; 
+        font-size: 1.225em; 
+    }
+    
+    .container h3 {
+        padding: 20px; 
+    }
+    
+    .video-js {
+        margin: 0 auto; 
+    }
+    
+    .accBut {
+        border-radius: 20px; 
+        background-color:#D1E7FF; 
+        border: none; 
+        color: #1d00ff;
+        font-family: 'Montserrat', sans-serif; 
+        text-transform: uppercase;
+        text-align: center; 
+        font-size: 0.75em;
+        transition: all 0.5s; 
+        cursor: pointer; 
+        float:right;
+        padding:10px; 
+    
+    }
+    
+    .accBut:hover {
+        background-color: #ffafe3; 
+        color: #CC0085; 
+    
+    }
+    
+    
+    /* styling button video */ 
+    
+    #rewind0   {
+    background-color: #1d00ff;
+    border: none;
+    color: white;
+    width: 60px;
+    height: 60px;
+    text-align: center; 
+    text-decoration: none;
+    display: inline-block; 
+    font-size: 0.5em; 
+    margin: 0 auto;
+    cursor: pointer;
+    border-radius: 50%; 
+    position: absolute; 
+    top: 45%;
+    left:50px;
+    
+    }
+    
+    
+    #play-pause0   {
+        background-color: #1d00ff;
+        border: none;
+        color: white;
+        width: 60px;
+        height: 60px;
+        text-align: center; 
+        text-decoration: none;
+        display: inline-block; 
+        font-size: 0.5em; 
+        margin: 0 auto;
+        cursor: pointer;
+        border-radius: 50%; 
+        position: absolute;
+        top: 50px;
+        left:50px;
+        
+        }
+    
+        #rewind1  {
+            background-color: #1d00ff;
+            border: none;
+            color: white;
+            width: 60px;
+            height: 60px;
+            text-align: center; 
+            text-decoration: none;
+            display: inline-block; 
+            font-size: 0.5em; 
+            margin: 0 auto;
+            cursor: pointer;
+            border-radius: 50%; 
+            position: absolute; 
+            top: 45%;
+            left:50px;
+            
+            }
+    
+    
+    #play-pause1   {
+        background-color: #1d00ff;
+        border: none;
+        color: white;
+        width: 60px;
+        height: 60px;
+        text-align: center; 
+        text-decoration: none;
+        display: inline-block; 
+        font-size: 0.5em; 
+        margin: 0 auto;
+        cursor: pointer;
+        border-radius: 50%; 
+        position: absolute;
+        top: 50px;
+        left:50px;
+        
+        }
+    
+        #rewind2   {
+            background-color: #1d00ff;
+            border: none;
+            color: white;
+            width: 60px;
+            height: 60px;
+            text-align: center; 
+            text-decoration: none;
+            display: inline-block; 
+            font-size: 0.5em; 
+            margin: 0 auto;
+            cursor: pointer;
+            border-radius: 50%; 
+            position: absolute; 
+            top: 45%;
+            left:50px;
+            
+            }
+    
+            #play-pause2   {
+                background-color: #1d00ff;
+                border: none;
+                color: white;
+                width: 60px;
+                height: 60px;
+                text-align: center; 
+                text-decoration: none;
+                display: inline-block; 
+                font-size: 0.5em; 
+                margin: 0 auto;
+                cursor: pointer;
+                border-radius: 50%; 
+                position: absolute;
+                top: 50px;
+                left:50px;
+                
+                }
+    
+                #rewind3   {
+                    background-color: #1d00ff;
+                    border: none;
+                    color: white;
+                    width: 60px;
+                    height: 60px;
+                    text-align: center; 
+                    text-decoration: none;
+                    display: inline-block; 
+                    font-size: 0.5em; 
+                    margin: 0 auto;
+                    cursor: pointer;
+                    border-radius: 50%; 
+                    position: absolute; 
+                    top: 45%;
+                    left:50px;
+                    
+                    }
+    
+                    #play-pause3   {
+                        background-color: #1d00ff;
+                        border: none;
+                        color: white;
+                        width: 60px;
+                        height: 60px;
+                        text-align: center; 
+                        text-decoration: none;
+                        display: inline-block; 
+                        font-size: 0.5em; 
+                        margin: 0 auto;
+                        cursor: pointer;
+                        border-radius: 50%; 
+                        position: absolute;
+                        top: 50px;
+                        left:50px;
+            
+                        }
+    
+                        #rewind4   {
+                            background-color: #1d00ff;
+                            border: none;
+                            color: white;
+                            width: 60px;
+                            height: 60px;
+                            text-align: center; 
+                            text-decoration: none;
+                            display: inline-block; 
+                            font-size: 0.5em; 
+                            margin: 0 auto;
+                            cursor: pointer;
+                            border-radius: 50%; 
+                            position: absolute; 
+                            top: 45%;
+                            left:50px;
+                            
+                            }
+    
+    
+                    #play-pause4  {
+                        background-color: #1d00ff;
+                        border: none;
+                        color: white;
+                        width: 60px;
+                        height: 60px;
+                        text-align: center; 
+                        text-decoration: none;
+                        display: inline-block; 
+                        font-size: 0.5em; 
+                        margin: 0 auto;
+                        cursor: pointer;
+                        border-radius: 50%; 
+                        position: absolute;
+                        top: 50px;
+                        left:50px;
+            
+                        }
+            
+    
+    
+    /* styling vinkje videos */ 
+    .seen {
+    display: none;
+    padding-left: 20px;
+    width: 50px;
+    height: 50px;
+    float: left;
+    }
+    
+    .videoVideo {
+        width: 50px;
+        height: 50px; 
+        background-color: #bbffb2;
+        border-radius: 50%;
+        border: 0px;
+        float: right; 
+        
+    }
+    
+    
+    /* styling vinkje */ 
+    
+    #accordion {
+        border: 1px solid var(--border-acc);
+    } 
+    .container p {
+        font-family: 'Montserrat', 'sans-serif';
+        font-weight: bolder;
+        padding:20px;
+        color: var(--ptext-acc); 
+    
+    
+    }
+    
+    /* styling containerTwo */ 
+    .containerTwo h3 {
+        padding-top: 70px; 
+        font-weight: 800; 
+    }
+    
+    .containerTwo {
+        height: 1100px; 
+        background-color: var(--bg); 
+        width: 1078px; 
+        margin: 0 auto; 
+        display:block; 
+        position: relative; 
+       
+    
+    }
+    
+    .containerTwo h2 {
+        font-size: 3.75em; 
+        font-family: 'Playfair Display', serif; 
+        font-weight: bolder;
+        color: var(--play-supp);
+        padding-top: 30px; 
+        padding-bottom: 100px; 
+    
+    
+    }
+    
+    .containerTwo img {
+        border-radius: 50%;
+        float: left; 
+        width: 200px;
+        height: 200px;
+        object-fit: cover; 
+    
+    }
+    
+    .imgBlock {
+        width: 400px; 
+        height: 300px; 
+        background-color: var(--bg); 
+        float: left; 
+    
+    }
+    
+    .containerTwo h4 {
+        font-size: 1.1em; 
+        font-family: 'Montserrat', sans-serif; 
+        color: var(--text-cont); 
+        margin-left: -90px;
+    
+    }
+    .containerTwo p {
+        font-size: 0.75em;
+        font-family: 'Montserrat', sans-serif; 
+        color: var(--text-cont); 
+    
+    }
+    
+    /* styling button */ 
+    .button {
+        border-radius: 4px;
+        background-color: black;
+        border: none; 
+        color: var(--text-email); 
+        font-family: 'Montserrat', sans-serif; 
+        text-transform: uppercase; 
+        text-align: center;
+        font-size: 0.75em;
+        width:80px;
+        transition: all 0.5s;
+        cursor: pointer; 
+        margin: 5px;
+        padding: 5px;
+        float: left; 
+    
+    }
+    
+    .button span {
+        cursor: pointer;
+        position: relative;
+        transition: 0.5s; 
+        width: 100px;
+    
+    }
+    
+    .button span:after {
+        content:'\00bb'; 
+        position:absolute;
+        opacity: 0; 
+        top: 0;
+        right: -20px; 
+        transition: 0.5s; 
+        width: 100px; 
+    
+    }
+    
+    .button span:after {
+        content: '\00bb'; 
+        position:absolute;
+        opacity: 0;
+        top: 0;
+        right: -20px;
+        transition: 0.5s;
+        width: 100px; 
+    
+    }
+    
+    .button:hover span {
+        width: 100px; 
+    }
+    
+    .button:hover span:after {
+        opacity: 1;
+        right:0;
+    }
+    
+    /* styling footer */ 
+    footer {
+        position: relative;
+        text-align: center;
+        color: white;
+    
+    }
+    
+    #footer {
+        height: 126px;
+        width: 100%; 
+        background-color: black; 
+    
+    }
+    
+    #footer p {
+        color: white;
+        text-transform: uppercase; 
+        font-family: 'Montserrat', sans-serif; 
+        font-size: 1em;
+        text-align: right;
+        padding: 55px; 
+    }
+    
+    #footerFooter {
+        height: 450px;
+        width: 100%; 
+        background: linear-gradient(rgba(255,175,227,0.85), rgba(204,0,133,0.85)),
+        url(../img/nicole-wolf-1339717-unsplash.jpg);
+        background-size:cover; 
+        color: white;
+    
+    
+    
+    }
+    
+    #footerFooter h2 {
+        font-family: 'Playfair', 'sans-serif'; 
+        font-size: 3.725em;
+        padding-top: 200px; 
+    
+    }
+    
+    #footerFooter p {
+        font-family: 'Montserrat','sans-serif '; 
+        font-size: 1em;
+        position: absolute;
+        top: 50%; 
+        left:50%; 
+        transform: translate(-50%,-50%); 
+        
+    }
+    
+    
+    /* styling callToAction button */ 
+    
+    #callToAction {
+        background-color: #1d00ff;
+        border: 0px;
+        padding: 15px; 
+        border-radius: 15px; 
+        font-family: 'Montserrat', 'sans-serif'; 
+        font-size: 1.125em;
+        color: #ffafe3; 
+        font-weight: bolder;
+        text-transform: uppercase;
+        margin: 60px; 
+        cursor: pointer; 
+    }
+    
+    /* styling dark mode */ 
+    [dark-theme="dark"] {
+        --bg-header:black;
+        --text-header:white;
+        --play-supp:white;
+        --text-accord: #0076FF;
+        --text-accord-click:white;
+        --bg:black; 
+        --text-cont:white; 
+        --text-email:black; 
+        --butt-email:white;
+        --ptext-acc:white;
+        --border-acc:white; 
+    
+    }
+    
+    /* styling switchmode */ 
+    input[type=vinkje] {
+     visibility: hidden;
+    }
+    
+    /* vinkje switchmode */ 
+    .vinkje {
+        width: 90px;
+        height: 40px;
+        background-color: #ebebeb; 
+        margin: 40px;
+        position: relative;
+        float:right;
+        border-radius: 20px; 
+    
+    } 
+    
+    .vinkje:before {
+        content:url(../img/moon.svg); 
+        position:absolute;
+        top: 6px; 
+        left:10px;
+    }
+    
+    .vinkje:after {
+        content:url(../img/sun.svg);
+        position: absolute;
+        top: 7px;
+        left: 55px; 
+    
+    }
+    
+    .vinkje label {
+    display: block; 
+    width: 30px;
+    height: 30px;
+    transition: all .5s ease; 
+    cursor: pointer;
+    position: absolute;
+    top: 6px;
+    z-index: 1;
+    left: 8.5px;
+    background: white;
+    border-radius: 23px;
+    }
+    
+    .vinkje input [type=vinkjes] :checked + label {
+        left:51px;
+        background:white; 
+    }
+    
+    
+    /* The Modal (background) */
+    .modal {
+        display: block; 
+        position: fixed; /* Stay in place */
+        z-index: 1; /* Sit on top */
+        left: 0;
+        top: 0;
+        width: 100%; /* Full width */
+        height: 100%; /* Full height */
+        overflow: auto; /* Enable scroll if needed */
+        background-color: rgb(0,0,0); /* Fallback color */
+        background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+      }
+      
+      /* Modal Content/Box */
+      .modal-content {
+        background-color: #fefefe;
+        margin: 15% auto; /* 15% from the top and centered */
+        padding: 20px;
+        border: 1px solid #888;
+        width: 80%; /* Could be more or less, depending on screen size */
+      }
+      
+      /* The Close Button */
+      .close {
+        color: #aaa;
+        float: right;
+        font-size: 28px;
+        font-weight: bold;
+      }
+      
+      .close:hover,
+      .close:focus {
+        color: black;
+        text-decoration: none;
+        cursor: pointer;
+      }
+    
+      .display-none{
+          display: none;
+      }
+    
+      .display-block{
+        display: block;
+    }
+    
+    .mode-black{
+        background-color:black!important;
+    }
